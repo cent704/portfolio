@@ -848,5 +848,19 @@ footer p {
     .education-card {
         flex-direction: column;
     }
+    .skill-linked {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.skill-linked h3 {
+    color: inherit;
+}
+
+.skill-linked:hover {
+    transform: translateY(-5px);
+}
 
 }
